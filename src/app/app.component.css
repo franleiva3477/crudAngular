@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px; /* Añadir un poco de relleno para el contenido */
+  }
+  
+  app-encabezado {
+    background-color: #f8f9fa; /* Color de fondo claro para el encabezado */
+    
+    border-bottom: 1px solid #dee2e6; /* Línea divisoria */
+  }
+  
+  app-footer {
+    background-color: #343a40; /* Fondo oscuro */
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    border-top: 1px solid #dee2e6; /* Línea divisoria */
+  }
+  

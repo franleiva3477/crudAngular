@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+/* styles.css */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-content {
+    flex: 1;
+  }
+  
+  footer {
+    background-color: #343a40; /* Fondo oscuro como el encabezado */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  

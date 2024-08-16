@@ -1,0 +1,32 @@
+<!-- body.component.html -->
+<div class="container mt-4">
+  <div class="row">
+    <div class="col">
+      
+      <!-- Formulario -->
+      <form>
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Introduce tu Nombre">
+        </div>
+        <div class="form-group">
+          <label for="email">Apellido</label>
+          <input type="email" class="form-control" id="email" placeholder="Introduce tu Email">
+        </div>
+        <div class="form-group">
+          <label for="email">Documento</label>
+          <input type="email" class="form-control" id="email" placeholder="Introduce tu DNI">
+        </div>
+        <div class="form-group">
+          <label for="email">Fecha de Nacimiento</label>
+          <input type="email" class="form-control" id="email" placeholder="Introduce tu Fecha de nacimiento">
+        </div>
+        <a class="btn btn-primary" [routerLink]="['/persona']" routerLinkActive="active">Enviar</a>
+
+      </form>
+      
+    
+    </div>
+  </div>
+
+  
