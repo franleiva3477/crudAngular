@@ -19,5 +19,5 @@ export class PersonaComponent {
 
   }
 
-
+//comentado
 }
